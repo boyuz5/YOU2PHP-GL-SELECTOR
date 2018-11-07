@@ -4,15 +4,15 @@
 2018-7-28
 */
 $gls=array(
-"HK"=>"香港",
-"TW"=>"台湾",
-"JP"=>"日本",
-"KR"=>"韩国",
-"US"=>"美国",
-"FR"=>"法国",
-"UK"=>"英国",
-"DE"=>"德国",
-"IN"=>"印度");
+"HK"=>"Hong Kong",
+"TW"=>"Taiwan",
+"JP"=>"Japan",
+"KR"=>"South Korea",
+"US"=>"United States",
+"FR"=>"France",
+"UK"=>"United Kingdom",
+"DE"=>"Germany",
+"IN"=>"India");
 //可以增加更多的选项
 
 $gl=(isset($_COOKIE['gl']) && $_COOKIE['gl'])?$_COOKIE['gl']:'HK';
